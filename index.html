@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LE6DP7MCME"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE6DP7MCME"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LE6DP7MCME');
+    </script>
 
-  gtag('config', 'G-LE6DP7MCME');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -33,86 +33,44 @@
             <a href="#skills">SKILLS</a>
             <a href="#experience">EXPERIENCE</a>
             <a href="#projects">PROJECTS</a>
-            <li><a href="#linkedin"></a> 
-              <img class="linkedInButton"
-                src="LI-In-Bug.png"
-                onclick="window.open('https://www.linkedin.com/in/paul-nitsche/', '_blank')">
-            </li>
-            <li><a href="#github"></a>
-              <img class="githubButton" 
-              src="github-mark.png" 
-              onclick="window.open('http://github.com/pj-nitsche','_blank')">
-            </li>
+            <a href="#linkedin" onclick="openLinkedIn()"><img class="linkedInButton" src="LI-In-Bug.png" alt="LinkedIn Logo"></a>
+            <a href="#github" onclick="openGitHub()"><img class="githubButton" src="github-mark.png" alt="GitHub Logo"></a>
           </div>
           <!-- "Hamburger menu" -->
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
       </nav>
     </header>
-    <header>
-      <nav>
-        <div id="menu">
-          <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
     
     <main>
-    
-    <div class="grid-container">
-      <div class="grid-item">
-        <div id="connections">
-          <ul>
-            <li><a href="#linkedin"></a> 
-              <img class="linkedInButton"
-                src="LI-In-Bug.png"
-                onclick="window.open('https://www.linkedin.com/in/paul-nitsche/', '_blank')">
-            </li>
-            <br>
-            <li><a href="#github"></a>
-              <img class="githubButton" 
-              src="github-mark.png" 
-              onclick="window.open('http://github.com/pj-nitsche','_blank')">
-            </li>
-          </ul>
+      <section id="about">
+        <div class="typewriter">
+          <h2>Hey, I'm Paul.</h2>
         </div>
-      </div>
+        <p>My name is Paul Nitsche, but my friends call me PJ. I am currently a student at the University of Iowa majoring in <b>Business Analytics and Information Systems.</b><br>
+      </section>
+  
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skill-list">
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Creativity</li>
+          <li>Leadership</li>
+          <li>Problem Solving</li>
+        </ul>
+      </section>
 
-      <div class="grid-item">
-        <section id="about">
-          <div class="typewriter">
-            <h2>Hey, I'm Paul.</h2>
-          </div>
-          <p>My name is Paul Nitsche, but my friends call me PJ. I am currently a student at the University of Iowa majoring in <b>Business Analytics and Information Systems.</b><br>
-        </section>
+      <section id="experience">
+        <h2>Experience</h2>          
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+      </section>
+    </main>
     
-        <section id="skills">
-          <h2>Skills</h2>
-          <ul id="skill-list">
-            <li>Communication</li>
-            <li>Teamwork</li>
-            <li>Creativity</li>
-            <li>Leadership</li>
-            <li>Problem Solving</li>
-
-
-        <section id="experience">
-          <h2>Experience</h2>          
-        </section>
-
-        <section id="projects">
-          <h2>Projects</h2>
-        </section>
-      </div>
-    </div>
-    
-    </script>
   </body>
 </html>
