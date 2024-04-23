@@ -1,0 +1,264 @@
+html{
+  font-family: 'Cardo', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-size: larger;
+  scroll-behavior: smooth;
+}
+
+/* palette
+  #FBFCEE background
+  #080F0F text
+  #A4BAB7 highlight gray
+  #C8B492 highlight khaki 
+*/
+
+body {
+  background-color: #FBFCEE;
+  color: #080F0F;
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+/* ======================== MOBILE NAV ======================== */
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #A4BAB7;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+/* ======================== MENU ======================== */
+#menu {
+  height: auto;
+  position: fixed;
+  top: center;
+  right: 0;
+  width: 200px;
+  color: #C8B492;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.topnav {
+  display: none;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  display: block;
+  padding: 20px;
+  background-color: transparent;
+}
+#menu li:hover{
+  background-color: #C8B492;
+} 
+
+#menu a {
+  color: #080F0F;
+  text-decoration: none;
+}
+
+/* ======================== CONNECTIONS ======================== */
+#connections {
+  position: fixed;
+}
+
+#connections li {
+  background-color: transparent;
+  padding: 20px;
+}
+#connections li:hover {
+  background-color: #C8B492;
+}
+
+.linkedInButton {
+  height: 64px;
+}
+
+.githubButton {
+  height: 64px;
+}
+.grid-item {
+  text-align: left;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+  background-color: #333;
+  border-bottom: #F0F7F4;
+  border-radius: 2%;
+}
+
+/* ======================== ABOUT ======================== */
+#about h2 {
+  font-size: 5em;
+  letter-spacing: 2px;
+  padding-top: 10%;
+  font-stretch: extra-expanded;
+}
+#about p {
+  width: 80%;
+  font-weight: 500;
+  padding-left: 5px;
+  color: #080F0F;
+}
+#about  h3{
+  padding-left: 5px;
+  color: #080F0F;
+  letter-spacing: 1px;
+}
+
+.typewriter{
+  /* padding: ;   */
+}
+.typewriter h2 {
+  max-width: fit-content;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  /* white-space: nowrap;  */
+  display: inline-flexbox;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* ======================== SKILLS ======================== */
+#skills {
+  padding-top: 10%;
+}
+#skills li {
+  padding-top: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  background-color: #A4BAB7;
+}
+
+/* ======================== EXPERIENCE ======================== */
+#experience {
+  padding-top: 10%;
+}
+#experience h4{
+  font-family: 'Cardo';
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+#experience li {
+  width: 40%;
+  background-color: #C8B492;
+  color: #080F0F;
+  font-weight: 600;
+}
+#experience p {
+  letter-spacing: 1px;
+}
+
+/* ======================== PROJECTS ======================== */
+#projects {
+  padding-top: 10%;
+}
+#projects li {
+  width: 40%;
+  background-color: #C8B492;
+}
+#projects h5 {
+  width:fit-content;
+  display: inline-block;
+  background-color: #FBFCEE;
+  color: #080F0F;
+  padding: 10px;
+}
+@media (max-width: 880px) {
+ 
+ #menu {
+    display: none;
+ } 
+ .topnav {
+    display: block;
+    position: fixed;
+    padding: 8px;
+    right: 0px;
+    top: 0px;
+    background-color: #333;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    background: rgb(28,34,31, 0.9);
+ }
+ 
+ .topnav li { 
+    background: rgb(28,34,31, 0.9);
+    background-color: transparent;
+ }
+ .topnav a:hover {
+    color: #A2E3C4;
+ }
+  
+ i.fa.fa-bars {
+    color: #A2E3C4;
+ }
+  
+ .topnav a.icon {
+    background: #1c221f;
+ }
+ #connections {
+    display: none;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+ }  
+ #experience li {
+    width: 100%;
+    margin-top: 20px;
+ }
+ #projects li {
+    width: 100%;
+    margin-top: 20px;
+ }
+}
