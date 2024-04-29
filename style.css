@@ -152,6 +152,18 @@ li {
   letter-spacing: .15em;
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
+.profile-image {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 /* The typing effect */
