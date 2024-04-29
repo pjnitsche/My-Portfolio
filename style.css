@@ -275,3 +275,26 @@ li {
     margin-top: 20px;
  }
 }
+footer {
+  background-color: #f0f0f0; /* Adjust as needed */
+  padding: 20px;
+  text-align: center;
+}
+
+#contact {
+  margin-top: 50px; /* Adjust as needed */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px; /* Adjust as needed */
+  height: auto;
+}
