@@ -142,6 +142,7 @@ li {
 
 .typewriter{
   /* padding: ;   */
+  margin-left: 75px;
 }
 .typewriter h2 {
   max-width: fit-content;
@@ -157,7 +158,7 @@ li {
   height: 200px; /* Adjust the size as needed */
   border-radius: 50%;
   overflow: hidden;
-  margin-left: 300px;
+  margin-left: 400px;
 }
 
 .profile-image img {
