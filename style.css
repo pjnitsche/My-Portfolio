@@ -344,3 +344,7 @@ footer {
 #accept-cookies:hover {
   background-color: #0056b3;
 }
+
+.copyright {
+  font-size: 0.8em; /* Adjust the font size as needed */
+}
