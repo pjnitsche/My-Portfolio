@@ -194,13 +194,13 @@ li {
 
 /* ======================== EXPERIENCE ======================== */
 #experience {
-  padding-top: 5%;
+  padding-top: 10%;
 }
 #experience h4{
   font-family: 'Cardo';
   letter-spacing: 1px;
   font-size: large;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #experience li {
