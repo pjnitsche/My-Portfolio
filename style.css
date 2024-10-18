@@ -200,6 +200,7 @@ li {
   font-family: 'Cardo';
   letter-spacing: 1px;
   font-size: large;
+  margin-bottom: 10px;
 }
 
 #experience li {
@@ -207,6 +208,7 @@ li {
   background-color: #C8B492;
   color: #080F0F;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 #experience p {
   letter-spacing: 1px;
