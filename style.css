@@ -194,7 +194,7 @@ li {
 
 /* ======================== EXPERIENCE ======================== */
 #experience {
-  padding-top: 1%;
+  padding-top: 10%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -207,7 +207,7 @@ li {
 }
 
 #experience li {
-  width: 33%;
+  width: 35%;
   background-color: #C8B492;
   color: #080F0F;
   font-weight: 600;
