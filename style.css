@@ -194,7 +194,7 @@ li {
 
 /* ======================== EXPERIENCE ======================== */
 #experience {
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -203,7 +203,7 @@ li {
   font-family: 'Cardo';
   letter-spacing: 1px;
   font-size: large;
-  padding: 1px;
+  margin-bottom: 1px;
 }
 
 #experience li {
