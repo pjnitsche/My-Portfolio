@@ -195,6 +195,10 @@ li {
 /* ======================== EXPERIENCE ======================== */
 #experience {
   padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 #experience h4{
   font-family: 'Cardo';
@@ -209,10 +213,15 @@ li {
   color: #080F0F;
   font-weight: 600;
   margin-bottom: 30px;
-  padding-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px
 }
 #experience p {
   letter-spacing: 1px;
+  flex-grow: 1;
 }
 
 /* ======================== PROJECTS ======================== */
