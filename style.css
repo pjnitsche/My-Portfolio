@@ -194,11 +194,10 @@ li {
 
 /* ======================== EXPERIENCE ======================== */
 #experience {
-  padding-top: 10%;
+  padding-top: 2%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 #experience h4{
   font-family: 'Cardo';
