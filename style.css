@@ -197,13 +197,18 @@ li {
   padding-top: 10%;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
+}
+
+#experience h2 {
+  margin-bottom: 10px;
 }
 #experience h4{
   font-family: 'Cardo';
   letter-spacing: 1px;
   font-size: large;
   margin-bottom: 0px;
+  margin-top: 0;
 }
 
 #experience li {
@@ -212,6 +217,7 @@ li {
   color: #080F0F;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 0;
   padding: 20px;
   display: flex;
   flex-direction: column;
